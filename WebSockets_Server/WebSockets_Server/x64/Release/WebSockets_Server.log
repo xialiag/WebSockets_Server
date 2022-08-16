@@ -1,0 +1,29 @@
+﻿  WebSockets_Server.cpp
+C:\Users\xiali\source\repos\WebSockets_Server\WebSockets_Server\WebSockets_Server.cpp(198,27): warning C4018: “<=”: 有符号/无符号不匹配
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\type_traits(1386): message : 查看对正在编译的函数 模板 实例化“auto main::<lambda_2>::operator ()<uWS::WebSocket<false,true,UserData>>(_T1 *,std::basic_string_view<char,std::char_traits<char>>,uWS::OpCode) const”的引用
+          with
+          [
+              UserData=PerSocketData,
+              _T1=uWS::WebSocket<false,true,PerSocketData>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\type_traits(1607): message : 查看对正在编译的 别名 模板 实例化“std::_Decltype_invoke_nonzero<F&,uWS::WebSocket<false,true,UserData>*,std::string_view,uWS::OpCode>”的引用
+          with
+          [
+              F=main::<lambda_2>,
+              UserData=PerSocketData
+          ]
+C:\Users\xiali\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(282): message : 查看指向正在编译的变量模板“const bool is_nothrow_invocable_r_v<void,`main'::`2'::<lambda_2> &,uWS::WebSocket<0,1,PerSocketData> *,std::basic_string_view<char,std::char_traits<char> >,enum uWS::OpCode>”的引用
+C:\Users\xiali\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(354): message : 查看对正在编译的 别名 模板 实例化“ofats::any_detail::can_convert<ofats::any_invocable<void (uWS::WebSocket<false,true,UserData> *,std::string_view,uWS::OpCode)>,F,false,R,F&,uWS::WebSocket<false,true,UserData>*,std::string_view,uWS::OpCode>”的引用
+          with
+          [
+              UserData=PerSocketData,
+              F=main::<lambda_2>,
+              R=void
+          ]
+    正在创建库 C:\Users\xiali\source\repos\WebSockets_Server\x64\Release\WebSockets_Server.lib 和对象 C:\Users\xiali\source\repos\WebSockets_Server\x64\Release\WebSockets_Server.exp
+  正在生成代码
+  1 of 2687 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    5 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  WebSockets_Server.vcxproj -> C:\Users\xiali\source\repos\WebSockets_Server\x64\Release\WebSockets_Server.exe
