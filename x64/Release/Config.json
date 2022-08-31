@@ -1,0 +1,5 @@
+{
+    "port": 9001,
+    "passwd": "WSClient_Sync",
+    "DevMode": false
+}

@@ -1,0 +1,2 @@
+C:\Users\xialiag\source\repos\WebSockets_Server\WebSockets_Server\x64\Release\WebSockets_Server.vcxproj.CopyComplete
+C:\Users\xiali\source\repos\WebSockets_Server\WebSockets_Server\x64\Release\WebSockets_Server.vcxproj.CopyComplete

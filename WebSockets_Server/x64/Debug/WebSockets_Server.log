@@ -1,0 +1,118 @@
+﻿  WebSockets_Server.cpp
+  The contents of <charconv> are available only with C++17 or later.
+  The contents of <string_view> are available only with C++17 or later.
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\App.h(33,14): error C2039: "string_view": 不是 "std" 的成员
+D:\Program_File\Visual Studio\VC\Tools\MSVC\14.32.31326\include\string(24): message : 参见“std”的声明
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\App.h(33,26): error C3646: “message”: 未知重写说明符
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\App.h(33,33): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\App.h(38,43): error C2039: "string_view": 不是 "std" 的成员
+D:\Program_File\Visual Studio\VC\Tools\MSVC\14.32.31326\include\string(24): message : 参见“std”的声明
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\App.h(38,17): error C7525: 内联变量至少需要 "/std:c++17"
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\App.h(38,55): error C2065: “string_view”: 未声明的标识符
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\App.h(38,55): error C2146: 语法错误: 缺少“)”(在标识符“userAgent”的前面)
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\App.h(38,66): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\App.h(38,66): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+  The contents of <optional> are available only with C++17 or later.
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\PerMessageDeflate.h(151,10): error C2039: "string_view": 不是 "std" 的成员
+D:\Program_File\Visual Studio\VC\Tools\MSVC\14.32.31326\include\map(25): message : 参见“std”的声明
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\PerMessageDeflate.h(151,22): error C3646: “deflate”: 未知重写说明符
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\PerMessageDeflate.h(151,29): error C2059: 语法错误:“(”
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\PerMessageDeflate.h(151,61): error C2039: "string_view": 不是 "std" 的成员
+D:\Program_File\Visual Studio\VC\Tools\MSVC\14.32.31326\include\map(25): message : 参见“std”的声明
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\PerMessageDeflate.h(151,90): error C2334: “{”的前面有意外标记；跳过明显的函数体
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\PerMessageDeflate.h(228,10): error C2039: "optional": 不是 "std" 的成员
+D:\Program_File\Visual Studio\VC\Tools\MSVC\14.32.31326\include\map(25): message : 参见“std”的声明
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\PerMessageDeflate.h(228,18): error C2143: 语法错误: 缺少“;”(在“<”的前面)
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\PerMessageDeflate.h(228,18): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\PerMessageDeflate.h(228,24): error C2039: "string_view": 不是 "std" 的成员
+D:\Program_File\Visual Studio\VC\Tools\MSVC\14.32.31326\include\map(25): message : 参见“std”的声明
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\PerMessageDeflate.h(228,76): error C2039: "string_view": 不是 "std" 的成员
+D:\Program_File\Visual Studio\VC\Tools\MSVC\14.32.31326\include\map(25): message : 参见“std”的声明
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\PerMessageDeflate.h(228,137): error C2334: “{”的前面有意外标记；跳过明显的函数体
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(88,23): error C7525: 内联变量至少需要 "/std:c++17"
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(166,30): error C2039: "in_place_type_t": 不是 "std" 的成员
+D:\Program_File\Visual Studio\VC\Tools\MSVC\14.32.31326\include\map(25): message : 参见“std”的声明
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(166,1): error C2065: “in_place_type_t”: 未声明的标识符
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(166,1): error C2974: "ofats::any_detail::is_in_place_type": "T" 的 模板 参数无效，应为类型
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(163): message : 参见“ofats::any_detail::is_in_place_type”的声明
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(166,47): error C2988: 不可识别的模板声明/定义
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(166,47): error C2143: 语法错误: 缺少“;”(在“>”的前面)
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(166,47): error C2059: 语法错误:“>”
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(166,57): error C2059: 语法错误:“函数样式强制转换”
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(166,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(166,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(169,23): error C7525: 内联变量至少需要 "/std:c++17"
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(280,10): error C2039: "is_invocable_r": 不是 "std" 的成员
+D:\Program_File\Visual Studio\VC\Tools\MSVC\14.32.31326\include\map(25): message : 参见“std”的声明
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(280,1): error C2065: “is_invocable_r”: 未声明的标识符
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(277,26): error C3544: “_Traits”: 参数包需要一个类型模板参数
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(280,47): error C2988: 不可识别的模板声明/定义
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(280,47): error C2059: 语法错误:“,”
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(282,73): error C2760: 语法错误:此处出现意外的“...”；应为“)”
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(282,77): error C2059: 语法错误:“)”
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(282,1): error C2947: 应由“>”终止 模板参数列表，却找到“>”
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(287,1): error C3856: “ofats”: 符号不是 模板 类
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(354,1): error C3856: “any_invocable”: 符号不是 模板 类
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(354,1): error C2279: 异常规范不能出现在 typedef 声明中
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(354,1): error C2988: 不可识别的模板声明/定义
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(354,1): error C2059: 语法错误:“>”
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(354,1): error C2059: 语法错误:“:”
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(354,1): error C2059: 语法错误:“public”
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(354,1): error C2065: “R”: 未声明的标识符
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(354,1): error C2065: “ArgTypes”: 未声明的标识符
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(354,1): error C3546: “...”: 没有可用于扩展的参数包
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(354,1): error C3544: “ArgTypes”: 参数包需要一个类型模板参数
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(354,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(354,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(355,1): error C3856: “any_invocable”: 符号不是 模板 类
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(355,1): error C2279: 异常规范不能出现在 typedef 声明中
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(355,1): error C2988: 不可识别的模板声明/定义
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(355,1): error C2059: 语法错误:“>”
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(355,1): error C2059: 语法错误:“:”
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(355,1): error C2059: 语法错误:“public”
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(355,1): error C2065: “R”: 未声明的标识符
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(355,1): error C2065: “ArgTypes”: 未声明的标识符
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(355,1): error C3546: “...”: 没有可用于扩展的参数包
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(355,1): error C3544: “ArgTypes”: 参数包需要一个类型模板参数
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(355,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(355,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(356,1): error C3856: “any_invocable”: 符号不是 模板 类
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(356,1): error C2279: 异常规范不能出现在 typedef 声明中
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(356,1): error C2988: 不可识别的模板声明/定义
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(356,1): error C2059: 语法错误:“>”
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(356,1): error C2059: 语法错误:“:”
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(356,1): error C2059: 语法错误:“public”
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(356,1): error C2065: “R”: 未声明的标识符
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(356,1): error C2065: “ArgTypes”: 未声明的标识符
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(356,1): error C3546: “...”: 没有可用于扩展的参数包
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(356,1): error C3544: “ArgTypes”: 参数包需要一个类型模板参数
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(356,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(356,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(357,1): error C3856: “any_invocable”: 符号不是 模板 类
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(357,1): error C2279: 异常规范不能出现在 typedef 声明中
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(357,1): error C2988: 不可识别的模板声明/定义
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(357,1): error C2059: 语法错误:“>”
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(357,1): error C2059: 语法错误:“:”
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(357,1): error C2059: 语法错误:“public”
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(357,1): error C2065: “R”: 未声明的标识符
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(357,1): error C2065: “ArgTypes”: 未声明的标识符
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(357,1): error C3546: “...”: 没有可用于扩展的参数包
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(357,1): error C3544: “ArgTypes”: 参数包需要一个类型模板参数
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(357,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(357,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(358,1): error C3856: “any_invocable”: 符号不是 模板 类
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(358,1): error C2279: 异常规范不能出现在 typedef 声明中
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(358,1): error C2988: 不可识别的模板声明/定义
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(358,1): error C2059: 语法错误:“>”
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(358,1): error C2059: 语法错误:“:”
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(358,1): error C2059: 语法错误:“public”
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(358,1): error C2065: “R”: 未声明的标识符
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(358,1): error C2065: “ArgTypes”: 未声明的标识符
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(358,1): error C3546: “...”: 没有可用于扩展的参数包
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(358,1): error C3544: “ArgTypes”: 参数包需要一个类型模板参数
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(358,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(358,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(359,1): error C3856: “any_invocable”: 符号不是 模板 类
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(359,1): error C2279: 异常规范不能出现在 typedef 声明中
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(359,1): error C2988: 不可识别的模板声明/定义
+C:\Users\xialiag\vcpkg\installed\x64-windows\include\uwebsockets\MoveOnlyFunction.h(359,1): fatal error C1003: 错误计数超过 100；正在停止编译
